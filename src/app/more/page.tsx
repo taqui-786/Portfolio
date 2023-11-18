@@ -18,7 +18,7 @@ const morePage = () => {
       title: "Dev.to",
       description:
         "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://dev.to/todayscode14",
+      link: "https://dev.to/taqui",
     },
     {
       title: "Hashnode",

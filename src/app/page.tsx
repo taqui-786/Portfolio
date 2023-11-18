@@ -3,11 +3,17 @@ import { cn } from "@/lib/utils";
 import { Download} from "lucide-react";
 import Link from "next/link";
 
-import Navbar from "@/components/Navbar";
 import SocialLinks from "@/components/SocialLinks";
 import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
 import GithubBtn from "@/components/GithubBtn";
+
+export const siteConfig = {
+  name: "Md Taqui Imam",
+  description: "I am a Passionate Software Developer",
+  ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
+  url: "https://mdTaquiImam.vercel.app",
+}
 export default function Home() {
   return (
    <>
