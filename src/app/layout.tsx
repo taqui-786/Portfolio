@@ -16,7 +16,6 @@ const rubik = Rubik({
   variable: "--font-rubik",
 });
 
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://mdTaquiImam.vercel.app"),
   title: {
@@ -47,7 +46,14 @@ export const metadata: Metadata = {
     "web developer",
     "web",
     "web dev",
-    "developer", "website", "@Taquiimam", "taqui developer"
+    "developer",
+    "PROGRAMMER ",
+    "programmer ",
+    "MD TAQUI IMAM ",
+    "website",
+    "@Taquiimam",
+    "Taquiimam",
+    "taqui developer",
   ],
   authors: [
     {
@@ -56,10 +62,7 @@ export const metadata: Metadata = {
     },
   ],
   creator: "Taqui imam",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
+
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -97,7 +100,7 @@ export default function RootLayout({
         >
           {/* NAVBAR ->  */}
           <Navbar />
-
+          {/* PROVIDER ->  */}
           {children}
         </main>
       </body>

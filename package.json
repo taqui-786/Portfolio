@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-toast": "^1.1.5",
     "@radix-ui/react-tooltip": "^1.0.7",
     "@vercel/og": "^0.5.20",
     "class-variance-authority": "^0.7.0",
@@ -18,6 +19,7 @@
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
+    "resend": "^0.16.0",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7"
   },
