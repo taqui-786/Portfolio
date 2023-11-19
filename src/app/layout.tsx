@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Poppins, Rubik } from "next/font/google";
+import {  Poppins, Rubik } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
@@ -100,7 +100,6 @@ export default function RootLayout({
         >
           {/* NAVBAR ->  */}
           <Navbar />
-          {/* PROVIDER ->  */}
           {children}
         </main>
       </body>
