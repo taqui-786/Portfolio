@@ -55,7 +55,7 @@ const projectsPage = () => {
         </p>
       </div>
 
-      <div className=" w-full flex flex-row gap-3 max-lg:flex-col">
+      <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
         {Projects.map((val, indx) => {
           return <ProjectCards key={indx} value={val} />;
         })}
