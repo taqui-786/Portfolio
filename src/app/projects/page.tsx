@@ -27,6 +27,13 @@ const projectsPage = () => {
       tags: ["Reactjs", "Javascript"],
       link: "https://github.com/taqui-786/chatapp-api",
     },
+    {
+      title: "Devletter - A Newsletter for devs",
+      description:
+        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
+      tags: ["Nextjs", "Tailwindcss"],
+      link: "https://github.com/taqui-786/Devletter",
+    },
   ];
 
   return (

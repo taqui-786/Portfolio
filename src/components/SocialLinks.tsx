@@ -8,7 +8,7 @@ const SocialLinks = () => {
     { name: "Facebook", link: "https://www.facebook.com/shahina.khatun.1044", icon: <Facebook /> },
     { name: "Twitter", link: "https://twitter.com/Taquiimam14", icon: <Twitter /> },
     { name: "Linkedin", link: "https://www.linkedin.com/in/taqui-imam", icon: <Linkedin /> },
-    { name: "Email", link: "https://tinyurl.com/MdTaquiImam", icon: <ExternalLink /> },
+    { name: "External", link: "https://tinyurl.com/MdTaquiImam", icon: <ExternalLink /> },
   ];
   return (
     <>
