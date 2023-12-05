@@ -46,9 +46,9 @@ const morePage = () => {
       link: "https://mdtaquijhar.gumroad.com/",
     },
     {
-      title: "Buy me coffee",
+      title: "Buy Me a coffee",
       description:
-        "Support me in my work",
+        "Your support goes a long way in helping me maintain the quality of content, explore new topics, and dedicate more time to creating valuable projects.",
       link: "https://www.buymeacoffee.com/taquidevloper",
     },
   ];
