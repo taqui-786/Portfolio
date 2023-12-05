@@ -45,6 +45,12 @@ const morePage = () => {
         "I also sell digital products on gumroad like Notion Templates and web projects etc..",
       link: "https://mdtaquijhar.gumroad.com/",
     },
+    {
+      title: "Buy me coffee",
+      description:
+        "Support me in my work",
+      link: "https://www.buymeacoffee.com/taquidevloper",
+    },
   ];
 
   return (
