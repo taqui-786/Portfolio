@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
  
-/* Poppins  */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
-
 
 @layer base {
   :root {
@@ -109,4 +106,39 @@
     background-color: #2f7df4;
     outline: 3px solid var(--primary);
     box-shadow: 0 2px 5px 2px #2f7df4;
+}
+/* TEXT ROTATOR STYLES  */
+.animate-text-slide {
+  animation: text-slide 12.5s cubic-bezier(0.83, 0, 0.17, 1) infinite;
+}
+
+@keyframes text-slide {
+  0%,
+  16% {
+    transform: translateY(0%);
+  }
+
+  20%,
+  36% {
+    transform: translateY(-16.66%);
+  }
+
+  40%,
+  56% {
+    transform: translateY(-33.33%);
+  }
+
+  60%,
+  76% {
+    transform: translateY(-50%);
+  }
+
+  80%,
+  96% {
+    transform: translateY(-66.66%);
+  }
+
+  100% {
+    transform: translateY(-83.33%);
+  }
 }

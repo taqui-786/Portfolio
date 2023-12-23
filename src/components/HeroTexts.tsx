@@ -1,3 +1,5 @@
+import TextRotator from "./TextRotator";
+
  
 const HeroTexts = () => {
  
@@ -8,12 +10,10 @@ const HeroTexts = () => {
       <h1 className="font-rubik text-8xl name_underline text-primary max-sm:text-6xl " >
         Md Taqui <br /> Imam .
       </h1>
-      <h2 className="font-poppins text-2xl mt-4  max-sm:text-xl" >
+        <TextRotator/>
+      {/* <div className="font-poppins text-2xl mt-4 flex relative [text-wrap:balance] max-sm:text-xl" >
         I am a Passionate
-        <span className="font-rubik text-3xl ml-1 max-sm:text-2xl text-primary">
-          Software Developer.
-        </span>
-      </h2>
+      </div> */}
     </>
   );
 };
