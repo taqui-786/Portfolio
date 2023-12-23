@@ -34,6 +34,13 @@ const projectsPage = () => {
       tags: ["Nextjs", "Tailwindcss"],
       link: "https://github.com/taqui-786/Devletter",
     },
+    {
+      title: "CrouMaker - A Crousal Maker App",
+      description:
+        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
+      tags: ["Nextjs", "jsPDF", "html2canvas"],
+      link: "https://github.com/taqui-786/crousal-maker",
+    },
   ];
 
   return (
