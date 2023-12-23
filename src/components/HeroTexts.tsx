@@ -11,9 +11,7 @@ const HeroTexts = () => {
         Md Taqui <br /> Imam .
       </h1>
         <TextRotator/>
-      {/* <div className="font-poppins text-2xl mt-4 flex relative [text-wrap:balance] max-sm:text-xl" >
-        I am a Passionate
-      </div> */}
+     
     </>
   );
 };

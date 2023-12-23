@@ -2,19 +2,7 @@ import React from 'react'
 
 function TextRotator() {
   return (
-    // <span className="font-rubik text-3xl ml-1 flex max-sm:text-2xl text-primary relative h-[calc(theme(fontSize.lg)*theme(lineHeight.tight))] overflow-hidden">
-
-    //        <ul
-    //       className="block text-left leading-tight [&_li]:block animate-text-slide absolute"
-    //     >
-    //       <li className="text-indigo-500">Mobile apps</li>
-    //       <li className="text-rose-500">Websites</li>
-    //       <li className="text-yellow-500">Admin dashboards</li>
-    //       <li className="text-teal-500">Landing pages</li>
-    //       <li className="text-pink-500">Illustrations</li>
-    //       <li className="text-sky-500">Icons</li>
-    //     </ul>
-    //     </span>
+   
     <div
     className="py-4  rounded-md flex flex-col justify-center items-center overflow-hidden"
   >
