@@ -21,6 +21,13 @@ const projectsPage = () => {
       link: "https://github.com/taqui-786/itZmyLink",
     },
     {
+      title: "GitEstimate- Github estimate worth generator",
+      description:
+        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
+      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
+      link: "https://github.com/taqui-786/GitEstimate",
+    },
+    {
       title: "ChatApp- Simple instagram clone",
       description:
         "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
