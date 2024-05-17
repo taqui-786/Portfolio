@@ -17,7 +17,7 @@ const projectsPage = () => {
       title: "itZmyLink- One Page many Links",
       description:
         "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Tailwindcss"],
+      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
       link: "https://github.com/taqui-786/itZmyLink",
     },
     {
@@ -26,6 +26,20 @@ const projectsPage = () => {
         "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
       link: "https://github.com/taqui-786/GitEstimate",
+    },
+    {
+      title: "Rupeespot- All deals Product in one place",
+      description:
+        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
+      tags: ["Nextjs", "Freelancing", "MySQL"],
+      link: "https://rupeespot.com/",
+    },
+    {
+      title: "KryptoKapital- Investing in Cryptocurreny",
+      description:
+        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
+      tags: ["Nextjs", "Freelancing", "Supabase"],
+      link: "https://devkryptokapital.netlify.app/",
     },
     {
       title: "ChatApp- Simple instagram clone",
@@ -45,7 +59,7 @@ const projectsPage = () => {
       title: "CrouMaker - A Crousal Maker App",
       description:
         "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas"],
+      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
       link: "https://github.com/taqui-786/crousal-maker",
     },
   ];
