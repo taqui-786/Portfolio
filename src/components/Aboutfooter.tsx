@@ -5,7 +5,7 @@ const Aboutfooter = () => {
 
     const items = [
         {name:"Language", answer:"English UK", icon:<Languages className="h-11 w-11" />},
-        {name:"Nationality",answer:"India", icon:<Globe2   className="h-8 w-8" />},
+        {name:"Nationality",answer:"Nigerian", icon:<Globe2   className="h-8 w-8" />},
         {name:"Gender",answer:"Male", icon:<Dna  className="h-8 w-8" />},
     ]
 

@@ -9,7 +9,6 @@ import js from '../../../public/js.png'
 import ts from '../../../public/ts.png'
 import react from '../../../public/react.png'
 import nextjs from '../../../public/nextjs.jpeg'
-import cplus from '../../../public/c++.jpeg'
 import tailwind from '../../../public/tailwindcss.png'
 import github from '../../../public/github.png'
 import vscode from '../../../public/vscode.png'
@@ -20,8 +19,8 @@ const skillPage = () => {
         {alt:"css", img:css},
         {alt:"js", img:js},
         {alt:"ts", img:ts},
-        {alt:"cplus", img:cplus},
     ]
+    
     const framework = [
         {alt:"react", img:react},
         {alt:"nextjs", img:nextjs},
@@ -43,10 +42,10 @@ const skillPage = () => {
         <Heading>My Technical Experience/Skills.</Heading>
 
         <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-          Currently i am a fresher and i have a solid understand of HTML5, CSS3, JS, TS and React, including
+           i am a Optimistic Developer and i have a solid understand of HTML5, CSS3, JS, TS Tailwind CSS  SVeltekit  React And NextJS, including
           responsive design principles. I specialize in building web
           applications and sites using Javascript, Typescript, React, Nextjs &
-          Node.
+          Tailwind CSS.
         </p>
         <div className="block">
         <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">

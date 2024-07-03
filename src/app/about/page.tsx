@@ -6,8 +6,7 @@ const page = () => {
   const items = [
     { hobby: "coding" },
     { hobby: "playing games" },
-    { hobby: "Watching Anima" },
-    { hobby: "Tect Blog writing" },
+    { hobby: "listening to music" },
     { hobby: "creating Cool Projects" },
   ];
 
@@ -20,16 +19,11 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-3">
         <Heading>
-          Software Engineer And Web <br /> Developer, Based In India.
+          Software Engineer  <br /> Developer, Based In Lagos, Nigeria.
         </Heading>
 
         <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-          I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India.
-          I love crafting cool web projects and also open-source contribuitions.
-          My biggest achievement lies in my mastery of JavaScript and CSS,
-          ensuring pixel-perfect designs that captivate users. With a keen eye
-          for detail and a commitment to delivery speed, I excel at creating
-          seamless and responsive interfaces that leave a lasting impression.
+          I am a  software developer with a knack for creative thinking and problem-solving. I thrive on exploring new trends and techniques in the tech world. When i am not writing code, you can find me brainstorming innovative solutions to complex problems or diving deep into the latest tech literature. My passion for learning drives me to continually expand my skills and stay at the forefront of software development.
         </p>
       </div>
       <div className="w-full flex flex-row justify-between max-lg:flex-col ">

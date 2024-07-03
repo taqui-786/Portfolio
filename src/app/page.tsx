@@ -7,10 +7,10 @@ import GithubBtn from "@/components/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 
 export const siteConfig = {
-  name: "Md Taqui Imam",
-  description: "I am a Passionate Software Developer",
-  ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
-  url: "https://mdTaquiImam.vercel.app",
+  name: "Terfa John",
+  description: "I am a  Software Developer",
+  ogImage: "https://terfajohn.vercel.app/og-image.png",
+  url: "https://terfajohn.vercel.app",
 }
 export default function Home() {
   return (
