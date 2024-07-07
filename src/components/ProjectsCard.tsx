@@ -9,14 +9,17 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import FramerWrapper from "./FramerWrapper";
+import { ArrowUpRight } from "lucide-react";
 
 interface projectcardprops {
   value: any;
+  num: number
 }
-const ProjectCards: React.FC<projectcardprops> = ({ value }) => {
+const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
   return (
-  
-    <Card className="max-w-[32%] max-lg:max-w-full">
+  <FramerWrapper className={"max-w-[32%] min-h-[345px] max-lg:max-w-full"} y={0} scale={0.8} delay={num/4} duration={0.15}>
+    <Card className="w-full h-full">
       <CardHeader>
         <CardTitle>{value.title}</CardTitle>
        
@@ -36,12 +39,13 @@ const ProjectCards: React.FC<projectcardprops> = ({ value }) => {
         <Link
           href={value.link}
           target="blank"
-          className={cn(buttonVariants({ variant: "default", size: "lg" }))}
+          className={cn(buttonVariants({ variant: "default", size: "lg" }),"flex")}
         >
-          Visit Project
+          Visit Project <ArrowUpRight className="h-5 w-5 ml-1" />
         </Link>
       </CardFooter>
     </Card>
+    </FramerWrapper>
   );
 };
 

@@ -1,3 +1,4 @@
+import FramerWrapper from "@/components/FramerWrapper";
 import Heading from "@/components/Heading";
 import ProjectCards from "@/components/ProjectsCard";
 import { Badge } from "@/components/ui/badge";
@@ -28,12 +29,20 @@ const projectsPage = () => {
       link: "https://github.com/taqui-786/GitEstimate",
     },
     {
+      title: "Mixcn-ui- Reusable components for Nextjs",
+      description:
+        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
+      tags: ["Nextjs", "Shadcnui", "Npx","Library"],
+      link: "https://mixcn-ui.vercel.app",
+    },
+    {
       title: "Rupeespot- All deals Product in one place",
       description:
         "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
       tags: ["Nextjs", "Freelancing", "MySQL"],
       link: "https://rupeespot.com/",
     },
+    
     {
       title: "KryptoKapital- Investing in Cryptocurreny",
       description:
@@ -73,19 +82,20 @@ const projectsPage = () => {
       </Badge>
       <div className="flex flex-col gap-3">
         <Heading>My Projects</Heading>
-
-        <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
-          I love to Build Cool Projects. Here, you&#x27;ll find a curated
-          collection of my creative endeavors and technical projects. Each piece
-          represents a journey of innovation, problem-solving, and continuous
-          learning. Feel free to explore this showcase of my passion and
-          expertise in action.
-        </p>
+        <FramerWrapper y={0} x={200}>
+          <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
+            I love to Build Cool Projects. Here, you&#x27;ll find a curated
+            collection of my creative endeavors and technical projects. Each
+            piece represents a journey of innovation, problem-solving, and
+            continuous learning. Feel free to explore this showcase of my
+            passion and expertise in action.
+          </p>
+        </FramerWrapper>
       </div>
 
       <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
         {Projects.map((val, indx) => {
-          return <ProjectCards key={indx} value={val} />;
+          return <ProjectCards key={indx} value={val} num={indx} />;
         })}
       </div>
     </div>

@@ -11,6 +11,7 @@ import {
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
+import FramerWrapper from "@/components/FramerWrapper";
 
 const morePage = () => {
   const morelink = [
@@ -18,7 +19,7 @@ const morePage = () => {
       title: "Dev.to",
       description:
         "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://dev.to/taqui_786",
+      link: "https://dev.to/random_ti",
     },
     {
       title: "Hashnode",
@@ -65,8 +66,10 @@ const morePage = () => {
       </div>
       <div className="h-auto w-full flex flex-wrap gap-3 p-2">
         {morelink.map((value, indx) => {
+          
           return (
-            <Card key={indx} className="max-w-[32%] max-lg:max-w-full">
+            <FramerWrapper key={indx} className="max-w-[32%] max-lg:max-w-full" y={0} scale={0.8} delay={indx/4} duration={0.15}>
+            <Card  className="w-full">
               <CardHeader>
                 <CardTitle>{value.title}</CardTitle>
               </CardHeader>
@@ -88,6 +91,7 @@ const morePage = () => {
                 </Link>
               </CardFooter>
             </Card>
+            </FramerWrapper>
           );
         })}
       </div>
