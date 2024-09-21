@@ -48,7 +48,7 @@ const projectsPage = () => {
       description:
         "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
       tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://devkryptokapital.netlify.app/",
+      link: "https://pro.kryptokapital.info/",
     },
     {
       title: "ChatApp- Simple instagram clone",
