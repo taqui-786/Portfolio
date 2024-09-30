@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import FramerWrapper from "./FramerWrapper";
+import FramerWrapper from "./animation/FramerWrapper";
 import { ArrowUpRight } from "lucide-react";
 
 interface projectcardprops {

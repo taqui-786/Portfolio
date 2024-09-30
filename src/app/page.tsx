@@ -3,9 +3,9 @@
 import SocialLinks from "@/components/SocialLinks";
 import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
-import GithubBtn from "@/components/GithubBtn";
+import GithubBtn from "@/components/animation/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
-import FramerWrapper from "@/components/FramerWrapper";
+import FramerWrapper from "@/components/animation/FramerWrapper";
 
 export const siteConfig = {
   name: "Md Taqui Imam",

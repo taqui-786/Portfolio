@@ -1,4 +1,4 @@
-import FramerWrapper from "@/components/FramerWrapper";
+import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import ProjectCards from "@/components/ProjectsCard";
 import { Badge } from "@/components/ui/badge";

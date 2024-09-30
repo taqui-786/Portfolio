@@ -11,7 +11,7 @@ import {
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
-import FramerWrapper from "@/components/FramerWrapper";
+import FramerWrapper from "@/components/animation/FramerWrapper";
 
 const morePage = () => {
   const morelink = [

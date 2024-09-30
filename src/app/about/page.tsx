@@ -1,5 +1,5 @@
 import Aboutfooter from "@/components/Aboutfooter";
-import FramerWrapper from "@/components/FramerWrapper";
+import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Circle, Heart, User2 } from "lucide-react";

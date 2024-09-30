@@ -13,7 +13,7 @@ import cplus from '../../../public/c++.jpeg'
 import tailwind from '../../../public/tailwindcss.png'
 import github from '../../../public/github.png'
 import vscode from '../../../public/vscode.png'
-import FramerWrapper from "@/components/FramerWrapper";
+import FramerWrapper from "@/components/animation/FramerWrapper";
 const skillPage = () => {
 
     const language = [

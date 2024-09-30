@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { Facebook, Linkedin, Twitter, ExternalLink } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
-import FramerWrapper from "./FramerWrapper";
+import FramerWrapper from "./animation/FramerWrapper";
 
 const SocialLinks = () => {
   const links = [
