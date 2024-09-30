@@ -8,12 +8,14 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "FriendZ - A social media Platform",
+      title: "Devzone - A community chat app for devs",
       description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
+        `DevZone is the ultimate chat platform for developers
+to connect, collaborate, and code together. Join the conversation and level up your coding journey.`,
+      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
+      link: "https://devzone-ti.vercel.app/",
     },
+   
     {
       title: "itZmyLink- One Page many Links",
       description:
@@ -49,6 +51,13 @@ const projectsPage = () => {
         "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
       tags: ["Nextjs", "Freelancing", "Supabase"],
       link: "https://pro.kryptokapital.info/",
+    },
+    {
+      title: "FriendZ - A social media Platform",
+      description:
+        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
+      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
+      link: "https://github.com/taqui-786/project-friendz",
     },
     {
       title: "ChatApp- Simple instagram clone",

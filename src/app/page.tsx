@@ -25,7 +25,7 @@ export default function Home() {
        <DownLoadResumeBtn/>
       </FramerWrapper>
       {/* RIGHT SIDE image  */}
-      <FramerWrapper className="h-full w-[47%] relative block max-lg:hidden" y={0} x={100}>
+      <FramerWrapper className="h-full w-[47%] relative block   max-lg:hidden" y={0} x={100}>
        
       {/* IMAGE  */}
         <HeroImage />

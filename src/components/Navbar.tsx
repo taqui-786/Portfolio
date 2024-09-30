@@ -2,12 +2,12 @@
 import { cn } from "@/lib/utils";
 import {
   Briefcase,
+  FolderGit2,
+  GraduationCap,
   Home,
-  Layers,
-  Lightbulb,
-  PackagePlus,
-  Phone,
-  User2,
+  Mail,
+  MoreHorizontal,
+  User,
 } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 
@@ -24,14 +24,14 @@ import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const items = [
-    { name: "Home", icon: <Home /> , link: "/"},
-    { name: "about", icon: <User2 />,link: "/about" },
-    { name: "skills", icon: <Lightbulb />, link: "/skills" },
-    { name: "projects", icon: <Layers />, link: "/projects" },
-    { name: "work", icon: <Briefcase />, link: "/education" },
-    { name: "more", icon: <PackagePlus />, link: "/more" },
-    { name: "contact", icon: <Phone />, link: "/contact" },
-  ];
+    { name: "Home", icon: <Home />, link: "/" },
+    { name: "About", icon: <User />, link: "/about" },
+    { name: "Skills", icon: <Briefcase />, link: "/skills" },
+    { name: "Education", icon: <GraduationCap />, link: "/education" },
+    { name: "Projects", icon: <FolderGit2 />, link: "/projects" },
+    { name: "Contact", icon: <Mail />, link: "/contact" },
+    { name: "More", icon: <MoreHorizontal />, link: "/more" },
+  ]
 
   const [scrolling, setScrolling] = useState(false);
   const pathname = usePathname()
