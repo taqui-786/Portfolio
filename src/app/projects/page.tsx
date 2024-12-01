@@ -44,6 +44,13 @@ to connect, collaborate, and code together. Join the conversation and level up y
       tags: ["Nextjs", "Freelancing", "MySQL"],
       link: "https://rupeespot.com/",
     },
+    {
+      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
+      description:
+        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
+      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
+      link: "https://formcraft-ti.vercel.app/",
+    },
     
     {
       title: "KryptoKapital- Investing in Cryptocurreny",
