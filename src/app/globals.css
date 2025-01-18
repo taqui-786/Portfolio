@@ -16,6 +16,7 @@
  
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
+    --primary-sky: 216.24deg 89.95% 57.06%;
  
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -82,7 +83,7 @@
   display: block;
   width: 6rem;
   height: .6rem;
-  background-color: #2f7df4;
+  background-color: hsl(var(--primary-sky));
 }
 .icon_underline::after{
   content: "";
@@ -91,7 +92,7 @@
     display: block;
     width: 2rem;
     height: .3rem;
-    background-color: #2f7df4;
+    background-color: hsl(var(--primary-sky));
     margin-bottom: 2rem;
 }
 .education_point::before{
@@ -103,9 +104,9 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #2f7df4;
-    outline: 3px solid var(--primary);
-    box-shadow: 0 2px 5px 2px #2f7df4;
+    background-color: hsl(var(--primary-sky));
+    outline: 3px solid hsl(var(--primary));
+    box-shadow: 0 2px 5px 2px hsl(var(--primary-sky));
 }
 /* TEXT ROTATOR STYLES  */
 .animate-text-slide {

@@ -43,13 +43,13 @@ const morePage = () => {
     {
       title: "Gumroad",
       description:
-        "I also sell digital products on gumroad like Notion Templates and web projects etc..",
+        "I also sell digital products on gumroad like Notion Templates and web projects etc.",
       link: "https://mdtaquijhar.gumroad.com/",
     },
     {
       title: "Buy Me a coffee",
       description:
-        "Your support goes a long way in helping me maintain the quality of content, explore new topics, and dedicate more time to creating valuable projects.",
+        "Supports my content quality, new topics, and project creation.",
       link: "https://www.buymeacoffee.com/taquidevloper",
     },
   ];
@@ -57,8 +57,8 @@ const morePage = () => {
   return (
     // ABOUT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-      <Badge className=" gap-2">
-        <PackagePlus className="h-5 w-5" />
+      <Badge variant="secondary" className="gap-1.5 py-1 ">
+        <PackagePlus className="h-4 w-4" />
         More
       </Badge>
       <div className="flex flex-col gap-3">
@@ -74,7 +74,7 @@ const morePage = () => {
                 <CardTitle>{value.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-base font-poppins">{value.description}</p>
+                <p className="text-base font-poppins ">{value.description}</p>
               </CardContent>
               <CardFooter>
                 <Link

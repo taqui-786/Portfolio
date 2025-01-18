@@ -3,7 +3,15 @@ const nextConfig = {
     experimental:{
         serverComponentsExternalPackages: [
             '@react-email/render',
-        ]
+        ],
+        // images:{
+        //     remotePatterns:[
+        //         {
+        //             protocol: 'https',
+        //             hostname: 'cdn.jsdelivr.net',
+        //         }
+        //     ]
+        // }
     }
 }
 
