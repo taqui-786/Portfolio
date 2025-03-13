@@ -4,15 +4,7 @@ import HeroImage from "@/components/HeroImage";
 import GithubBtn from "@/components/animation/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
-import { portfolioConfig } from "@/config/portfolio.config";
 
-// Export site config from the portfolio config
-export const siteConfig = {
-  name: portfolioConfig.name,
-  description: portfolioConfig.description,
-  ogImage: portfolioConfig.seo.ogImage,
-  url: portfolioConfig.seo.url,
-};
 
 export default function Home() {
   return (
