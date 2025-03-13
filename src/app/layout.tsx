@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import {  Poppins, Rubik } from "next/font/google";
+import { Poppins, Rubik } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { siteConfig } from "./page";
+import { portfolioConfig } from "@/config/portfolio.config";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: "400",
@@ -16,67 +18,33 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL(portfolioConfig.seo.url),
   title: {
-    default: siteConfig.name,
-    template: `%s - Software Engineer`,
+    default: portfolioConfig.name,
+    template: `%s - ${portfolioConfig.title}`,
   },
-  description: siteConfig.description,
+  description: portfolioConfig.description,
 
   // added new keywords for seo
-  keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
-    "portfolio",
-    "web developer",
-    "web",
-    "web dev",
-    "developer",
-    "PROGRAMMER ",
-    "programmer ",
-    "MD TAQUI IMAM ",
-    "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
-  ],
-  authors: [
-    {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
-    },
-  ],
-  creator: "Taqui imam",
+  keywords: portfolioConfig.seo.keywords,
+  authors: portfolioConfig.seo.authors,
+  creator: portfolioConfig.name,
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteConfig.url,
-    title: siteConfig.name,
-    description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
-    siteName: siteConfig.name,
+    url: portfolioConfig.seo.url,
+    title: portfolioConfig.name,
+    description: portfolioConfig.description,
+    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    siteName: portfolioConfig.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.name,
-    description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
+    title: portfolioConfig.name,
+    description: portfolioConfig.description,
+    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    creator: portfolioConfig.seo.twitterHandle,
   },
   icons: {
     icon: "/favicon.ico",

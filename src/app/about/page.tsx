@@ -3,14 +3,10 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Circle, Heart, User2 } from "lucide-react";
+import { portfolioConfig } from "@/config/portfolio.config";
+
 const page = () => {
-  const items = [
-    { hobby: "Coding" },
-    { hobby: "Playing Games" },
-    { hobby: "Watching Anime" },
-    { hobby: "Tech Blog Writing" },
-    { hobby: "Creating Cool Projects" },
-  ];
+  const items = portfolioConfig.about.hobbies.map((hobby) => ({ hobby }));
 
   return (
     // ABOUT PAGE
@@ -21,18 +17,13 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-5">
         <Heading>
-          Software Engineer And Web <br /> Developer, Based In India.
+          {portfolioConfig.title} And Web <br /> Developer, Based In{" "}
+          {portfolioConfig.about.personalInfo.nationality}.
         </Heading>
 
         <FramerWrapper y={0} x={100}>
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
-            I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand,
-            India. I&apos;m passionate about crafting web projects and
-            contributing to open-source communities. I specialize in modern
-            JavaScript frameworks and responsive CSS design, focusing on
-            creating pixel-perfect, user-friendly interfaces. With strong
-            attention to detail and efficient delivery, I build seamless web
-            experiences that combine functionality with elegant design.
+            {portfolioConfig.about.bio}
           </p>
         </FramerWrapper>
       </div>

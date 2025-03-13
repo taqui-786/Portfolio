@@ -24,4 +24,37 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Configuration
 
+This project uses a centralized configuration approach for all personal information. The main configuration file is located at:
+
+```
+src/config/portfolio.config.ts
+```
+
+### Configuration Structure
+
+The configuration file contains the following sections:
+
+- **Basic Information**: Name, title, description, location
+- **Contact Information**: Email and other contact details
+- **Social Media Links**: Links to various social media profiles
+- **SEO Information**: Keywords, metadata, and SEO-related settings
+- **About Information**: Bio, hobbies, and personal details
+- **Skills**: Programming languages, frameworks, tools, and professional roles
+- **Education**: Academic background and qualifications
+- **Projects**: Portfolio of projects with descriptions and links
+- **More Links**: Additional external links and resources
+
+### Customizing Your Portfolio
+
+To personalize the portfolio, simply edit the values in the `portfolio.config.ts` file. All changes will be reflected throughout the site automatically without having to modify multiple files.
+
+Example usage in a component:
+
+```typescript
+import { portfolioConfig } from "@/config/portfolio.config";
+
+// Access configuration values
+const { name, title } = portfolioConfig;
+```
