@@ -1,19 +1,17 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "Md Taqui Imam",
-  title: "Software Engineer",
+  name: "Siddharth Rishi",
+  title: "AI and DataSci Engineer",
   description: "I am a Passionate Software Developer",
-  location: "Ramgarh cantt, Jharkhand, India",
+  location: "Hyderabad, India",
 
   // Contact Information
   email: "taquiimam@example.com", // Replace with actual email if available
 
   // Social Media Links
   socialLinks: {
-    facebook: "https://www.facebook.com/shahina.khatun.1044",
     twitter: "https://twitter.com/Taquiimam14",
     linkedin: "https://www.linkedin.com/in/taqui-imam",
-    external: "https://tinyurl.com/MdTaquiImam",
     github: "https://github.com/taqui-786", // Assuming this is the GitHub link
   },
 
